@@ -3,8 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!-- below is very important to have the defer there otherwise put the javascript link at bottom -->
-  <script src="./script.js"defer></script>
+  <link rel="stylesheet" href="styles.css">
   <title>Format Name</title>
 </head>
 <body>
@@ -12,7 +11,9 @@
   <h1>Format Name</h1>
   <input id="firstName" placeholder="First Name">
   <input id="lastName" placeholder="Last Name">
-  <button onclick="testFunction()">Format Name</button>
+
+  <button id="formatButton" type="button">Format Name</button>
   <p>Result: <span id="result"></span></p>
+    <script src="./script.js"></script>
 </body>
 </html>
